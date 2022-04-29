@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "babel-version": "babel --version",
+    "start": "nodemon babel-node index.js"
+  },
+  "dependencies": {
+    "axios": "^0.21.1",
+    "config": "^3.3.7",
+    "dotenv": "^16.0.0",
+    "node-telegram-bot-api": "^0.56.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.6",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  }
+}
